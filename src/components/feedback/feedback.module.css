@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.count {
+    font-size: 40px; /* Увеличение размера текста */
+    font-weight: bold; /* Жирный текст */
+  }

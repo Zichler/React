@@ -1,0 +1,14 @@
+/* components/myButton.css */
+.myButton {
+    padding: 20px 30px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    
+    border-radius: 20px; 
+  }
+  
+  .myButton:hover {
+    background-color: #0056b3; 
+  }
+  

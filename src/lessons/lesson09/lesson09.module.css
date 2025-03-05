@@ -1,0 +1,18 @@
+.heading {
+    font-size:40px;
+    
+}
+.desc {
+   font-style: italic; 
+   font-size: 30px;
+   color: blue;
+}
+.textOrange {
+    color: orange;
+}
+.list > li {
+    list-style: none;
+    }
+    .list > li::before {
+       content: "😎";
+        }

@@ -1,0 +1,30 @@
+.shopContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    background-color: yellowgreen;
+}
+.shopContainerCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid lightblue;
+    border-radius: 10px;
+    padding: 20px 10px 10px;
+    background-color: yellow;
+}
+.shopContainerCard:hover {
+border: 5px snow blueviolet;
+background-color: aquamarine;
+}
+.imgWrapper {
+width: 100%;
+height: 300px;
+}
+
+.imgWrapper img {
+width: 100%;
+height: 100%;
+object-fit: contain;
+}
